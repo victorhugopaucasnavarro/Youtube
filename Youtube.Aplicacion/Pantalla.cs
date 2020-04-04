@@ -14,7 +14,7 @@ namespace Youtube.Aplicacion
     {
         string Directorio;
         string Enlace;
-        string Archivo;
+        //string Archivo;
 
         public Pantalla()
         {
@@ -50,6 +50,7 @@ namespace Youtube.Aplicacion
                 try
                 {
                     FormatearProgreso();
+                    Enlace = txtEnlace.Text;
                     var youTube = YouTube.Default;
                     var video = youTube.GetVideo(Enlace);
                     File.WriteAllBytes(Path.Combine(Directorio, video.FullName), video.GetBytes());
