@@ -14,7 +14,7 @@ namespace Youtube.Aplicacion
     {
         string Directorio;
         string Enlace;
-        //string Archivo;
+        string Archivo;
 
         public Pantalla()
         {
@@ -49,13 +49,13 @@ namespace Youtube.Aplicacion
             {
                 try
                 {
-                    Enlace = txtEnlace.Text;
+                    FormatearProgreso();
                     var youTube = YouTube.Default;
                     var video = youTube.GetVideo(Enlace);
                     File.WriteAllBytes(Path.Combine(Directorio, video.FullName), video.GetBytes());
                     MessageBox.Show("Se descargó el video correctamente.", "Youtube", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     MessageBox.Show("Error al buscar enlace, verifique que el enlace exista.", "Youtube", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
