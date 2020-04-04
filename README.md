@@ -17,6 +17,6 @@ Copiar el enlace del video de youtube
 ![image](https://user-images.githubusercontent.com/59380623/78418077-75fed780-75fe-11ea-8964-41d2b94b500c.png)
 
 ## 3. Licencia
-**[MIT LICENSE](https://github.com/victorpaucas/Yumpu/blob/master/LICENSE)**
+**[MIT LICENSE](https://github.com/victorpaucas/Youtube/blob/master/LICENSE)**
 
 Copyright © 2020 Victor Hugo Paucas Navarro
