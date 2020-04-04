@@ -3,7 +3,7 @@ Aplicación para descargar videos
 
 ## 1. Instalación
 Ejecutar la aplicación Youtube.exe de la siguiente ruta.
-> ~\Youtube\Youtube.Aplicacion\bin\Yumpu.exe
+> ~\Youtube\Youtube.Aplicacion\bin\Youtube.exe
 
 ![image](https://user-images.githubusercontent.com/59380623/78417884-5ff01780-75fc-11ea-868e-a01d1c265c09.png)
 
