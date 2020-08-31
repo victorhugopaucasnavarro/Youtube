@@ -2,6 +2,8 @@
 Aplicación para descargar videos
 
 ## 1. Instalación
+Compilar proyecto Youtube.Aplicación.
+
 Ejecutar la aplicación Youtube.exe de la siguiente ruta.
 > ~\Youtube\Youtube.Aplicacion\bin\Youtube.exe
 
